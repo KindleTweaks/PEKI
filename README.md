@@ -23,3 +23,5 @@
 - Penguins184 - Scriptlet
 - Twobob - KUAL Booklet
 - Dammit Jeff - Icon
+
+<img width="240" height="370" alt="KUALv3" src="https://github.com/user-attachments/assets/c016df7f-327b-4207-bf53-ec0d7eb5c818" />
