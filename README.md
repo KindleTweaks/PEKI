@@ -9,7 +9,7 @@
 
 1. PEKI can be used as a way to install KUAL without MRPI, then it will act as a launcher.
 2. On kindles where KUAL is already installed, PEKI will delete the previous booklet and act as a launcher.
-3. The upside of this is that PEKI has a nice icon :) And MRPI is known for it's quirks.
+3. The upside of this is that PEKI has a nice icon :) And MRPI is known for its quirks.
 
 ## Installation
 
