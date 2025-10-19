@@ -11,6 +11,13 @@
 2. On kindles where KUAL is already installed, PEKI will delete the previous booklet and act as a launcher.
 3. The upside of this is that PEKI has a nice icon :) And MRPI is known for it's quirks.
 
+## Installation
+
+1. Grab the latest release
+2. Unzip it, copy both the `KUAL.jar` and `KUAL.sh` into your `documents/` folder on your kindle.
+3. Run it once, it will either install & run KUAL or delete the old booklet & run KUAL, making it the new launcher.
+4. Have fun!
+
 ## Credit
 
 - Penguins184 - Scriptlet
