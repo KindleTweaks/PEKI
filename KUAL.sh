@@ -28,7 +28,7 @@ EOF
     mntroot ro
 fi
 
-# Cleanup (remove previous install residue, this is the new launcher. KUAL jar already copoied, no need to keep in documents.)
+# Cleanup (remove previous install residue, this is the new launcher. KUAL jar already copied, no need to keep in documents.)
 rm -f /mnt/us/documents/KUAL.jar
 rm -f /mnt/us/documents/KUAL.kual
 
