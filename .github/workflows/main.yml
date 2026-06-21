@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: build
+      run: |
+          sh ./build.sh
+    - uses: actions/upload-artifact@v4
+      with:
+        name: PEKI
+        path: build/*
