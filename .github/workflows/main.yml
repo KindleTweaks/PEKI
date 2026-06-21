@@ -16,5 +16,5 @@ jobs:
           sh ./build.sh
     - uses: actions/upload-artifact@v4
       with:
-        name: Winterbreak2
+        name: PEKI
         path: build/*
