@@ -5,7 +5,7 @@
 # DontUseFBInk
 
 if [ ! -f /opt/amazon/ebook/booklet/KUALBooklet.jar ]; then
-    eips 1 25 "Installing KUAL through PEKI..."
+    echo "Installing KUAL through PEKI..."
     mntroot rw
 
     cp -f /mnt/us/documents/KUAL.jar /opt/amazon/ebook/booklet/KUALBooklet.jar # PEKI installation logic
