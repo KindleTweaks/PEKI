@@ -26,6 +26,7 @@ INSERT OR IGNORE INTO "properties" VALUES('com.mobileread.ixtab.kindlelauncher',
 EOF
 
     mntroot ro
+    sleep 1
 fi
 
 # Cleanup (remove previous install residue, this is the new launcher. KUAL jar already copied, no need to keep in documents.)
@@ -33,4 +34,4 @@ rm -f /mnt/us/documents/KUAL.jar
 rm -f /mnt/us/documents/KUAL.kual
 
 # Launch KUAL
-nohup sh -c 'sleep 1; lipc-set-prop com.lab126.appmgrd start app://com.mobileread.ixtab.kindlelauncher'
+lipc-set-prop com.lab126.appmgrd start app://com.mobileread.ixtab.kindlelauncher &
