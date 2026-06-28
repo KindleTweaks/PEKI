@@ -5,10 +5,10 @@
 # DontUseFBInk
 
 if [ ! -f /opt/amazon/ebook/booklet/KUALBooklet.jar ]; then
-    echo "Installing KUAL through PEKI..."
+    eips 1 25 "Installing KUAL through PEKI..."
     mntroot rw
 
-    echo "PACKED_KUAL_DATA" | base64 -d | xz -d > /opt/amazon/ebook/booklet/KUALBooklet.jar
+    cp -f /mnt/us/documents/KUAL.jar /opt/amazon/ebook/booklet/KUALBooklet.jar # PEKI installation logic
     sqlite3 "/var/local/appreg.db" <<EOF
 INSERT OR IGNORE INTO "handlerIds" VALUES('com.mobileread.ixtab.kindlelauncher');
 INSERT OR IGNORE INTO "properties" VALUES('com.mobileread.ixtab.kindlelauncher','lipcId','com.mobileread.ixtab.kindlelauncher');
