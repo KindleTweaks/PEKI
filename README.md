@@ -9,6 +9,8 @@
 - **K**UAL
 - **I**nstaller
 
+**5.12.2.2+ Only, on Universal Hotfix 2.3.7 MAX.**
+
 ## What It Does
 
 1. PEKI can be used as a way to install KUAL without MRPI, then it will act as a launcher.
