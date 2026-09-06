@@ -1,5 +1,8 @@
 # PEKI
 
+> [!CAUTION]
+> PEKI is **archived** because [KUAL is no longer supported for launching homebrew](https://kindlemodding.org/jailbreaking/whats-next/installing-homebrew.html). Neither PEKI nor KUAL should be used on modern devices (especially 5.19.4+, where it will not work at all), but I am keeping this repository on the organisation for historical reasons and for users of the legacy Universal Hotfix.
+
 <a href='https://ko-fi.com/W7W31J9IS0' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 *Like [my](https://penguins184.xyz/) work? Consider donating or just starring my repo! :)*
